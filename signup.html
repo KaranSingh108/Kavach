@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="" class="logo-image">
+        </div>
+        <div class="link-container-login">
+            <a href="index.html" class="quick-links"><i class="fa-duotone fa-house"></i>Home</a>
+        </div>
+       
+        
+    </div>
+    <div class="signup-page-container">
+        <div class="signup-page">
+            <div class="headings">
+                <h4>START FOR FREE</h4>
+                 <h1>Create new account<span>.</span></h1>
+            <span class="new-user">Already a member? <a href="login.html">login</a></span>
+            </div>
+            <div class="name-input">
+                <input placeholder="First name" type="text"><input placeholder="Last name" type="text">
+            </div>
+            <div class="input-container">
+                <label for="email-input"><i class="fa-duotone fa-envelope"></i></label>
+                <input placeholder="Enter your email" id="email-input" type="email">
+                <label  for="password-input"><i class="fa-duotone fa-lock"></i></label>
+                <span onclick="showPassword()" id="show-password"
+                ><i id="show-eye" class="fa-solid fa-eye"></i></span>
+                <input placeholder="Enter your password" id="password-input" type="Password">
+            </div>
+            <div class="btn-container">
+                <button class="forget-btn">Change method</button>
+                <button class="submit-btn">Create account</button>
+            </div>
+        </div>
+        
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavach</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="" class="logo-image">
+        </div>
+        <div class="link-container">
+            <a href="index.html" class="quick-links">Home</a>
+            <a href="features.html" class="quick-links">Features</a>
+            <a href="downloads.html" class="quick-links">Downloads</a>
+            <a href="support.html" class="quick-links">Support</a>
+            <a href="contact.html" class="quick-links">Contact</a>
+        </div>
+        <div class="button-container">
+             <div class="search-container">
+                <input  type="text" name="" id="searchbar" placeholder="Type to search..">
+                <i id="search-btn" class="fa fa-search"  aria-hidden="true"></i>
+            </div>
+            <div onclick="redirectToLogin()"class="login-container">
+                <button  id="loginBtn" class="login-btn">Login</button>
+            </div>
+            <div class="demo">
+                <button class="demo-btn ">Request for demo</button>
+            </div>
+        </div>
+    </div>
+    <div class="home-page-container">
+        <div class="tagline-container">
+            <h3>Don’t let a security breach ruin your day</h3>
+            <h4  class="serve" id="serve">Let Us Serve You <span style="color: #60605f;">&</span> Save You <span class="caret"></span></h4>
+            <button>learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="services-container">
+            <div class="services banner">
+              <img src="images/logo-banner.png" alt="">
+            </div>
+            <div class="services">
+               <h4> <i class="fa-solid fa-lock-keyhole"></i> Block To All Hackers</h4>
+                <p>Protection against malwareand viruses that could leave your devices unstable.</p>
+            </div>
+            <div class="services">
+               <h4> <i class="fa-solid fa-ban"></i>Stop Account Takeovers</h4>
+                <p>We block fake sites that steal your passwords and make it easier to use strong passwords.</p>
+            </div>
+            <div class="services">
+               <h4> <i class="fa-solid fa-key-skeleton-left-right"></i>Private Internet Connections</h4>
+                <p>Our VPN helps keep your internet browsing private at home or public Wi-Fi.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
